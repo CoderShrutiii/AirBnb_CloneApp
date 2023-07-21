@@ -1,5 +1,5 @@
 import React from "react";
-import headerimg from "../assests/airbnb.jpeg"
+import headerimg from "../assests/airbnb.jpg"
 
 const Header=()=>{
 return(

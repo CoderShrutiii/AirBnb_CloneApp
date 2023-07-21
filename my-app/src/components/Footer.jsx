@@ -1,10 +1,11 @@
 import React from "react";
+import "../css/footer.css"
 
 const Footer=()=>{
 return(
-    <footer style={{ backgroundColor: "gray", padding: "10px", color: "white" }}>
-        Footer
-    </footer>
+    <div className="footer" style={{ backgroundColor: "gray", padding: "10px", color: "white" }}>
+        AirBnb pvt ltd | Copyright
+    </div>
 );
 }
 export default Footer;

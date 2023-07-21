@@ -1,3 +1,5 @@
+
+
 const hotelsData = [
     {
       id: 1,

@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-
+import "../css/productcard.css"
 
 const ProductCard = ({ hotel }) => {
     const [showButton, setShowButton] = useState(false);
@@ -9,8 +9,8 @@ const ProductCard = ({ hotel }) => {
     };
   
     return (
-      <div className="product-card" style={{display:"inline-block"}}>
-        <img src={hotel.imageUrl} alt={hotel.name} />
+      <div className="product-card" style={{display:"inline-block" }}>
+        <img src={`/images/${hotel.imageUrl}`}  className ="img" alt={hotel.name} />
         <h3>{hotel.name}</h3>
         <p>{hotel.description}</p>
         <p>Price: ${hotel.price}</p>
